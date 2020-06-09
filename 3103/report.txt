@@ -1,0 +1,26 @@
+CEC CS 18 C21 31-03-2020
+GOVIND KARTHA
+
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	Linux Zorin OS 15
+
+--------------------------------
+Output: 
+	
+	# Screenshots 1-5 shows various steps of installation	
+	# Linux Zorin OS was installed successfully.
+
+-------------------
+Remarks if any:
+	A USB flash drive was used instead of a CD as installion disc was unavailable.
+	
+
+-------------------------------------
+-------------------------------------

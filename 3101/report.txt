@@ -1,0 +1,143 @@
+CEC-CS-18-C21
+GOVIND KARTHA
+
+
+--------------------------------
+#1: sort,cut,grep,paste a text file
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	sort -n test.txt > sorted.txt
+	cut -f3 test.txt
+	cut -f-3 test.txt
+	paste test1.txt test2.txt
+	grep l test1.txt
+
+Input: 
+---------------
+
+	# Unsorted file 
+	test.txt 	
+
+--------------------------------
+Output: 
+
+	# Sorted file
+	sorted.txt
+ 
+	-f3 cuts the third number
+	
+	-f-3 cuts upto third number
+
+	the contents of both files are jointly displayed when
+	using paste command
+
+	grep finds the character in the file 
+
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#2: Number the lines of textfile
+
+Command/Shell script/Program name
+---------------------------------
+
+	cat -n sorted.txt 
+
+
+Input: 
+---------------
+
+	# Sorted file from #1
+	sorted.txt	
+
+--------------------------------
+Output: 
+
+	text file with lines numbered
+
+     1	
+     2	1
+     3	2
+     4	3
+     5	4
+     6	5
+     7	6
+     8	7
+
+	
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+#3: Familiarisation of Miscellaneous commands
+
+Command/Shell script/Program name
+---------------------------------
+
+	uname -a
+	free -h
+	wget 192.168.0.30
+	head -n 11 index.html
+	whoami 
+
+--------------------------------
+Output: 
+	
+	# wget fetches the HTML file
+	index.html	
+	
+	# head prints the 'n' lines from the top
+	
+	# whoami prints the current user
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+
+#4: Exploring Further
+
+Command/Shell script/Program name
+---------------------------------
+
+	ps
+	ps aux	
+	kill -9 3589	
+	history		
+	ping 192.168.0.30	
+
+--------------------------------
+Output: 
+	
+	# ps command prints the current processes.
+	
+	# The kill command kills the process with PID 3589.
+	
+	# shows the the history of commands used
+	
+	# The ping command is used to check the response of a server
+	
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+

@@ -1,0 +1,478 @@
+Script started on Friday 07 February 2020 10:41:34 AM IST
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit e[Ktest.txt
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ sort -dr test.txt >sorted[K[K[K[K[K[K[K> sorted.txt
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit sorted.txt 
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit sorted.txt sort -dr test.txt > sorted.txt[1P[C[1P[1@n
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ sort -n test.txt > sorted.txt[12Pgedit sorted.txt 
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit test.txt
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit test.txt
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit test.txtsorted.txt sort -n test.txt > sorted.txt
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ sort -n test.txt > sorted.txt[15Pgedit test.txtsorted.txt 
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit sorted.txt sort -n test.txt > sorted.txt[15Pgedit test.txt
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ cut -f3 test.txt
+7 4 3 2 1 0
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ cut -f3 test.txt[1@-
+7 4 3 2 1 0
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ cut -f-3 test.txt[1P[C[C[C[C[C[C[C[C[C[C[2Pgedit[C[C[C[C[C[C[C[C[C
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit test.txt[3@cut -f-3[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C
+7
+4
+3
+2
+1
+0
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ cut -f3 test.txt[2Pgedit[C[C[C[C[C[C[C[C[C[3@cut -f-3[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C
+7
+4
+3
+2
+1
+0
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ cut -f3 test.txt[2Pgedit[C[C[C[C[C[C[C[C[C[3@cut -f-3[C[C[C[C[C[C[C[C[C[3Pgedit[C[C[C[C[C[C[C[C[C
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit test.txt[2@cut -f3[C[C[C[C[C[C[C[C[C
+3
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ cut -f3 test.txt[2Pgedit[C[C[C[C[C[C[C[C[C[2@cut -f3[C[C[C[C[C[C[C[C[C[2Pgedit[C[C[C[C[C[C[C[C[C[3@cut -f-3[C[C[C[C[C[C[C[C[C
+7	4	3
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ cur[Kt f1-3 test,[K.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ get [K[Kdit test1.txt
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit test1.txt[1P.txt2.txt
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ paste test1,[K.txt test2.txt
+hello	world
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ grep l test1.txt
+he[01;31m[Kl[m[K[01;31m[Kl[m[Ko
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ grep l test1.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat -n test[K[K[K[Ksorted.txt
+     1	
+     2	1
+     3	2
+     4	3
+     5	4
+     6	5
+     7	6
+     8	7
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ awk '{}'p}'r}'i}'n}'t}' }'"}'"}']""}'t""}'[1P""}'[1P""}'[C\"}'t"}'[C }'$}'0}'[C[C test2.txt
+	world
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ awk ''{'{'[1P'}'s}'+}'=}'$}'1}'[C 'E'N'D' '{'}'p}'r}'i}'n}'t}' }'s}'[C '[1P'[C test.txt
+7
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ wget test.txt
+--2020-02-07 10:58:03--  http://test.txt/
+Connecting to 192.168.0.2:3128... connected.
+Proxy request sent, awaiting response... 503 Service Unavailable
+2020-02-07 10:58:03 ERROR 503: Service Unavailable.
+
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ gedit report.txt
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ uname -a
+Linux proxysrvr 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           1.9G        939M         99M        259M        888M        538M
+Swap:          4.7G         25M        4.6G
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ wget 192.168.0.30
+--2020-02-07 11:13:03--  http://192.168.0.30/
+Connecting to 192.168.0.2:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 8546 (8.3K) [text/html]
+Saving to: ‘index.html’
+
+index.html            0%[                    ]       0  --.-KB/s               index.html          100%[===================>]   8.35K  --.-KB/s    in 0s      
+
+2020-02-07 11:13:03 (26.1 MB/s) - ‘index.html’ saved [8546/8546]
+
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ head -n 10 index.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <title>Ask's Home</title>
+    <meta name="GENERATOR" content="OpenOffice.org 2.3 (Linux)">
+    <meta name="AUTHOR" content="ask">
+    <meta name="CREATED" content="20101130;15571500">
+    <meta name="CHANGEDBY" content="ask">
+    <meta name="CHANGED" content="20101130;19162600">
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ whom[K[Koami
+s4c1
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ ps
+  PID TTY          TIME CMD
+ 3223 pts/11   00:00:00 bash
+ 3598 pts/11   00:00:00 ps
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.2 185300  5508 ?        Ss   09:42   0:01 /sbin/init spla
+root         2  0.0  0.0      0     0 ?        S    09:42   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        S<   09:42   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    09:42   0:00 [ksoftirqd/0]
+root         7  0.0  0.0      0     0 ?        S    09:42   0:01 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    09:42   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    09:42   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S<   09:42   0:00 [lru-add-drain]
+root        11  0.0  0.0      0     0 ?        S    09:42   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    09:42   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    09:42   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    09:42   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    09:42   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    09:42   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S<   09:42   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    09:42   0:00 [kdevtmpfs]
+root        20  0.0  0.0      0     0 ?        S<   09:42   0:00 [netns]
+root        21  0.0  0.0      0     0 ?        S    09:42   0:00 [khungtaskd]
+root        22  0.0  0.0      0     0 ?        S    09:42   0:00 [oom_reaper]
+root        23  0.0  0.0      0     0 ?        S<   09:42   0:00 [writeback]
+root        24  0.0  0.0      0     0 ?        S    09:42   0:00 [kcompactd0]
+root        25  0.0  0.0      0     0 ?        SN   09:42   0:00 [ksmd]
+root        26  0.0  0.0      0     0 ?        SN   09:42   0:00 [khugepaged]
+root        27  0.0  0.0      0     0 ?        S<   09:42   0:00 [crypto]
+root        28  0.0  0.0      0     0 ?        S<   09:42   0:00 [kintegrityd]
+root        29  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        30  0.0  0.0      0     0 ?        S<   09:42   0:00 [kblockd]
+root        33  0.0  0.0      0     0 ?        S<   09:42   0:00 [ata_sff]
+root        34  0.0  0.0      0     0 ?        S<   09:42   0:00 [md]
+root        35  0.0  0.0      0     0 ?        S<   09:42   0:00 [devfreq_wq]
+root        36  0.0  0.0      0     0 ?        S<   09:42   0:00 [watchdogd]
+root        38  0.0  0.0      0     0 ?        S    09:42   0:00 [kauditd]
+root        39  0.0  0.0      0     0 ?        S    09:42   0:00 [kswapd0]
+root        40  0.0  0.0      0     0 ?        S<   09:42   0:00 [vmstat]
+root        41  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        42  0.0  0.0      0     0 ?        S    09:42   0:00 [ecryptfs-kthre
+root        82  0.0  0.0      0     0 ?        S<   09:42   0:00 [kthrotld]
+root        83  0.0  0.0      0     0 ?        S<   09:42   0:00 [acpi_thermal_p
+root        84  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        85  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        86  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        87  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        88  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        89  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        90  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        91  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root        92  0.0  0.0      0     0 ?        S    09:42   0:00 [scsi_eh_0]
+root        93  0.0  0.0      0     0 ?        S<   09:42   0:00 [scsi_tmf_0]
+root        94  0.0  0.0      0     0 ?        S    09:42   0:00 [scsi_eh_1]
+root        95  0.0  0.0      0     0 ?        S<   09:42   0:00 [scsi_tmf_1]
+root        97  0.0  0.0      0     0 ?        S    09:42   0:00 [scsi_eh_2]
+root        98  0.0  0.0      0     0 ?        S<   09:42   0:00 [scsi_tmf_2]
+root        99  0.0  0.0      0     0 ?        S    09:42   0:00 [scsi_eh_3]
+root       100  0.0  0.0      0     0 ?        S<   09:42   0:00 [scsi_tmf_3]
+root       103  0.0  0.0      0     0 ?        S    09:42   0:00 [scsi_eh_4]
+root       104  0.0  0.0      0     0 ?        S<   09:42   0:00 [scsi_tmf_4]
+root       105  0.0  0.0      0     0 ?        S    09:42   0:00 [scsi_eh_5]
+root       106  0.0  0.0      0     0 ?        S<   09:42   0:00 [scsi_tmf_5]
+root       113  0.0  0.0      0     0 ?        S<   09:42   0:00 [ipv6_addrconf]
+root       135  0.0  0.0      0     0 ?        S<   09:42   0:00 [charger_manage
+root       138  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       139  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       189  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       190  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       192  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       193  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       194  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       195  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       196  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       197  0.0  0.0      0     0 ?        S<   09:42   0:00 [bioset]
+root       198  0.0  0.0      0     0 ?        S<   09:42   0:00 [kworker/1:1H]
+root       199  0.0  0.0      0     0 ?        S<   09:42   0:00 [kworker/0:1H]
+root       201  0.0  0.0      0     0 ?        S    09:42   0:00 [i915/signal:0]
+root       202  0.0  0.0      0     0 ?        S    09:42   0:00 [i915/signal:2]
+root       228  0.0  0.0      0     0 ?        S    09:42   0:00 [jbd2/sda3-8]
+root       229  0.0  0.0      0     0 ?        S<   09:42   0:00 [ext4-rsv-conve
+root       267  0.0  0.1  29648  2728 ?        Ss   09:42   0:00 /lib/systemd/sy
+root       297  0.0  0.1  45592  3292 ?        Ss   09:42   0:00 /lib/systemd/sy
+root       330  0.0  0.0      0     0 ?        S    09:42   0:00 [irq/32-mei_me]
+systemd+   602  0.0  0.1 102380  2608 ?        Ssl  09:42   0:00 /lib/systemd/sy
+root       715  0.0  0.1 109276  3892 ?        Ss   09:42   0:00 /usr/sbin/squid
+proxy      718  0.0  0.8 149572 17256 ?        S    09:42   0:00 (squid-1) -YC -
+root       755  0.0  0.1  28628  2996 ?        Ss   09:42   0:00 /lib/systemd/sy
+root       772  0.0  0.3 286944  7864 ?        Ssl  09:42   0:00 /usr/lib/accoun
+root       773  0.0  0.1  29004  2956 ?        Ss   09:42   0:00 /usr/sbin/cron 
+root       775  0.0  0.0   4392  1176 ?        Ss   09:42   0:00 /usr/sbin/acpid
+root       778  0.0  0.4 337388  8472 ?        Ssl  09:42   0:00 /usr/sbin/Modem
+avahi      781  0.0  0.1  45020  3704 ?        Ss   09:42   0:01 avahi-daemon: r
+root       782  0.0  1.2 215584 24096 ?        Ssl  09:42   0:00 /usr/lib/snapd/
+message+   783  0.0  0.2  44196  4720 ?        Ss   09:42   0:00 /usr/bin/dbus-d
+root       813  0.0  0.8 451428 16556 ?        Ssl  09:42   0:00 /usr/sbin/Netwo
+syslog     814  0.0  0.1 256388  2872 ?        Ssl  09:42   0:00 /usr/sbin/rsysl
+root       827  0.0  0.3 287744  7636 ?        SLsl 09:42   0:00 /usr/sbin/light
+avahi      841  0.0  0.0  44780   304 ?        S    09:42   0:00 avahi-daemon: c
+root       844  0.0  0.4 289772  9732 ?        Ssl  09:42   0:00 /usr/lib/policy
+root       867  0.0  0.0  19564   260 ?        Ss   09:42   0:00 /usr/sbin/irqba
+root       892  0.0  0.2  65508  5312 ?        Ss   09:42   0:00 /usr/sbin/sshd 
+root       911  0.8  3.3 418428 65260 tty7     Ssl+ 09:42   0:44 /usr/lib/xorg/X
+root       922  0.0  0.1  16120  3764 ?        S    09:42   0:00 /sbin/dhclient 
+nobody     986  0.0  0.2  52860  4208 ?        S    09:42   0:00 /usr/sbin/dnsma
+rtkit     1184  0.0  0.1 183540  2908 ?        SNsl 09:42   0:00 /usr/lib/rtkit/
+root      1235  0.0  0.4 347156  9624 ?        Ssl  09:42   0:00 /usr/lib/upower
+colord    1267  0.0  0.6 309128 12552 ?        Ssl  09:42   0:00 /usr/lib/colord
+whoopsie  1281  0.0  0.6 382200 12340 ?        Ssl  09:42   0:00 /usr/bin/whoops
+dhcpd     1282  0.0  0.6  41944 13668 ?        Ss   09:42   0:00 dhcpd -user dhc
+root      1290  0.0  0.0  15932  1844 tty1     Ss+  09:42   0:00 /sbin/agetty --
+root      1428  0.0  0.3  93228  7500 ?        Ss   09:47   0:00 /usr/sbin/cupsd
+root      1429  0.0  0.4 274820  9756 ?        Ssl  09:47   0:00 /usr/sbin/cups-
+lp        1433  0.0  0.2  81240  5756 ?        S    09:47   0:00 /usr/lib/cups/n
+proxy     1471  0.0  0.0  13412  1668 ?        S    09:47   0:00 (pinger)
+root      1601  0.0  0.3 230436  6500 ?        Sl   10:09   0:00 lightdm --sessi
+s4c1      1628  0.0  0.2  45276  4712 ?        Ss   10:09   0:00 /lib/systemd/sy
+s4c1      1629  0.0  0.0 145308  1560 ?        S    10:09   0:00 (sd-pam)
+s4c1      1634  0.0  0.3 205204  6608 ?        Sl   10:09   0:00 /usr/bin/gnome-
+s4c1      1636  0.0  0.2  46472  4660 ?        Ss   10:09   0:00 /sbin/upstart -
+s4c1      1716  0.0  0.0  32856   276 ?        S    10:09   0:00 upstart-udev-br
+s4c1      1724  0.0  0.2  43764  4140 ?        Ss   10:09   0:00 dbus-daemon --f
+s4c1      1736  0.0  0.4  86340  8788 ?        Ss   10:09   0:00 /usr/lib/x86_64
+s4c1      1763  0.1  0.4 356720  9108 ?        Ssl  10:09   0:04 /usr/bin/ibus-d
+s4c1      1776  0.0  0.0  41280   400 ?        S    10:09   0:00 upstart-file-br
+s4c1      1778  0.0  0.0  32788   320 ?        S    10:09   0:00 upstart-dbus-br
+s4c1      1780  0.0  0.0  32788   320 ?        S    10:09   0:00 upstart-dbus-br
+s4c1      1784  0.0  0.3 274520  6408 ?        Sl   10:09   0:00 /usr/lib/gvfs/g
+s4c1      1789  0.0  0.4 417796  9272 ?        Sl   10:09   0:00 /usr/lib/gvfs/g
+s4c1      1801  0.0  0.4 275320  7920 ?        Sl   10:09   0:00 /usr/lib/ibus/i
+s4c1      1802  0.0  1.6 477416 31676 ?        Sl   10:09   0:01 /usr/lib/ibus/i
+s4c1      1804  0.0  1.1 427672 23268 ?        Sl   10:09   0:00 /usr/lib/ibus/i
+s4c1      1819  0.0  0.3 346960  7692 ?        Sl   10:09   0:00 /usr/lib/at-spi
+s4c1      1828  0.0  0.2  42884  3984 ?        S    10:09   0:00 /usr/bin/dbus-d
+s4c1      1830  0.0  0.3 206860  6440 ?        Sl   10:09   0:00 /usr/lib/at-spi
+s4c1      1835  0.0  0.3 199452  7140 ?        Sl   10:09   0:01 /usr/lib/ibus/i
+s4c1      1841  0.0  0.0 166532   668 ?        Ss   10:09   0:00 gpg-agent --hom
+s4c1      1854  0.0  1.7 927520 33900 ?        Ssl  10:09   0:00 /usr/lib/unity-
+s4c1      1855  0.0  1.3 523512 26972 ?        Ssl  10:09   0:01 /usr/lib/x86_64
+s4c1      1857  0.0  1.8 645328 37308 ?        Ssl  10:09   0:01 /usr/lib/x86_64
+s4c1      1865  0.0  0.7 705876 14816 ?        Ssl  10:09   0:00 /usr/lib/gnome-
+s4c1      1874  0.0  1.6 638992 33096 ?        Ssl  10:09   0:01 /usr/lib/x86_64
+s4c1      1905  0.0  0.2 178660  4804 ?        Sl   10:09   0:00 /usr/lib/dconf/
+s4c1      1911  0.0  0.5 434924 11344 ?        S<l  10:09   0:00 /usr/bin/pulsea
+s4c1      1929  0.0  0.4 363476  8836 ?        Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      1930  0.0  0.3 342344  7420 ?        Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      1931  0.0  0.4 352800  9336 ?        Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      1934  0.0  0.9 1232912 18488 ?       Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      1936  0.0  1.2 657100 25316 ?        Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      1938  0.0  0.6 669132 11948 ?        Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      1939  0.0  1.1 547172 23672 ?        Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      1940  0.0  0.4 961836  8504 ?        Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      1945  0.0  0.6 476876 12976 ?        Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      2019  0.0  1.6 589212 32796 ?        Sl   10:09   0:00 nm-applet
+s4c1      2020  0.0  2.6 876196 52944 ?        Sl   10:09   0:01 nautilus -n
+s4c1      2023  0.0  4.0 812792 79816 ?        SLl  10:09   0:01 /usr/bin/gnome-
+s4c1      2024  0.0  1.0 511260 20996 ?        Sl   10:09   0:00 /usr/lib/unity-
+s4c1      2028  0.0  1.0 429296 19832 ?        Sl   10:09   0:00 /usr/lib/policy
+s4c1      2034  0.0  1.2 980724 25572 ?        Sl   10:09   0:00 /usr/lib/evolut
+root      2047  0.0  1.8 506952 35904 ?        Ssl  10:09   0:00 /usr/lib/x86_64
+s4c1      2064  0.0  0.4 296376  9460 ?        Sl   10:09   0:00 /usr/lib/gvfs/g
+root      2069  0.0  0.4 377956  9704 ?        Ssl  10:09   0:00 /usr/lib/udisks
+s4c1      2075  0.0  3.1 863092 61936 ?        Sl   10:09   0:00 /usr/lib/evolut
+s4c1      2084  0.0  0.4 271840  8104 ?        Sl   10:09   0:00 /usr/lib/gvfs/g
+s4c1      2098  0.0  0.4 403604  8980 ?        Sl   10:09   0:00 /usr/lib/gvfs/g
+s4c1      2104  0.0  0.2 259516  4504 ?        Sl   10:09   0:00 /usr/lib/gvfs/g
+s4c1      2109  0.0  0.2 257524  5060 ?        Sl   10:09   0:00 /usr/lib/gvfs/g
+s4c1      2122  0.0  0.8 569508 16024 ?        Sl   10:09   0:00 zeitgeist-datah
+s4c1      2124  0.0  0.4 361496  8404 ?        Sl   10:09   0:00 /usr/lib/gvfs/g
+s4c1      2130  1.4  5.3 1546064 105336 ?      Ssl  10:09   0:55 compiz
+s4c1      2137  0.0  0.0   4500   700 ?        S    10:09   0:00 /bin/sh -c /usr
+s4c1      2141  0.0  0.4 421328  9164 ?        Sl   10:09   0:00 /usr/bin/zeitge
+s4c1      2153  0.0  0.7 319272 14712 ?        Sl   10:09   0:00 /usr/lib/x86_64
+s4c1      2194  0.0  2.5 1259112 49484 ?       Sl   10:10   0:00 /usr/lib/evolut
+s4c1      2256  0.0  1.2 449036 24588 ?        Sl   10:10   0:00 update-notifier
+s4c1      2434  0.0  0.5 588764 10832 ?        Sl   10:11   0:00 /usr/lib/x86_64
+s4c1      2864  0.0  1.7 659684 35148 ?        Rl   10:33   0:02 /usr/lib/gnome-
+s4c1      2872  0.0  0.2  22416  5148 pts/1    Ss   10:33   0:00 bash
+s4c1      2894  0.0  0.4 435628  8288 ?        Sl   10:35   0:00 /usr/lib/gvfs/g
+s4c1      2920  0.0  0.4 361712  8604 ?        Sl   10:35   0:00 /usr/lib/gvfs/g
+s4c1      2946  2.8 14.4 1900516 285964 ?      Sl   10:36   1:03 /usr/lib/firefo
+s4c1      3002  2.8 12.4 1675184 244972 ?      Sl   10:36   1:03 /usr/lib/firefo
+s4c1      3038  0.1  5.5 1524476 109552 ?      Sl   10:36   0:02 /usr/lib/firefo
+s4c1      3084  0.9  9.0 1638768 178944 ?      Sl   10:36   0:20 /usr/lib/firefo
+s4c1      3112  0.0  4.2 1500504 84736 ?       Sl   10:37   0:00 /usr/lib/firefo
+s4c1      3165  0.0  0.8 644812 17032 ?        Sl   10:39   0:00 /usr/lib/x86_64
+s4c1      3177  0.0  0.7 630712 15612 ?        Sl   10:39   0:00 /usr/lib/x86_64
+s4c1      3178  0.0  1.1 647484 22204 ?        Sl   10:39   0:00 /usr/bin/unity-
+root      3220  0.0  0.0      0     0 ?        S    10:41   0:01 [kworker/0:2]
+s4c1      3222  0.0  0.1  22036  2504 pts/1    S+   10:41   0:00 script work.txt
+s4c1      3223  0.0  0.2  22400  5184 pts/11   Ss   10:41   0:00 bash -i
+s4c1      3250  0.0  0.2 186040  5408 ?        Sl   10:42   0:00 /usr/lib/gvfs/g
+root      3363  0.0  0.0      0     0 ?        S    10:50   0:00 [kworker/1:0]
+root      3455  0.0  0.0      0     0 ?        S    10:58   0:00 [kworker/0:1]
+root      3467  0.0  0.0      0     0 ?        S    10:58   0:00 [kworker/u8:1]
+root      3495  0.0  0.0      0     0 ?        S    11:04   0:00 [kworker/u8:0]
+root      3511  0.0  0.0      0     0 ?        S    11:06   0:00 [kworker/1:1]
+root      3571  0.0  0.0      0     0 ?        S    11:12   0:00 [kworker/u8:2]
+s4c1      3574  0.7  1.8 655476 36580 ?        Sl   11:12   0:00 gedit /home/s4c
+root      3588  0.0  0.0      0     0 ?        S    11:12   0:00 [kworker/1:2]
+root      3589  0.0  0.0      0     0 ?        S    11:12   0:00 [kworker/0:0]
+s4c1      3599  0.0  0.1  37360  3416 pts/11   R+   11:13   0:00 ps aux
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ kill -9 2323
+bash: kill: (2323) - No such process
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ kill -9 3589
+bash: kill: (3589) - Operation not permitted
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ history
+    1  cd
+    2  mkdit ceccs18c20
+    3  cd ceccs18c20
+    4  mkdir ceccs18c20
+    5  cd ceccs18c20
+    6  mkdir cs232
+    7  cd cs232
+    8  git init
+    9  mkdir 3101
+   10  cd 3101
+   11  script work.txt
+   12  ls
+   13  ls-l
+   14  lsls -l
+   15  ls -ltr
+   16  ls ab* -d
+   17  sort -n fn
+   18  sort sort -nk7 fn
+   19  gedit gopu
+   20  sort gopu
+   21  sort -n gopu
+   22  cut -f3 gopu
+   23  sort -nk7 gopu
+   24  who
+   25  cd ceccs18c20
+   26  cd cs232
+   27  cd3101
+   28  cd 3101
+   29  script work.txt
+   30  is
+   31  ls
+   32  ls -lt
+   33  ls -ltr
+   34  sort -n abc
+   35  sort -rnk7 fn abc
+   36  gedit cut1
+   37  cut -f3 cut1
+   38  gedit cut1
+   39  cut -f2 cut1
+   40  who
+   41  clear
+   42  gedit sort
+   43  awk'{print"\t" $0}' sort.txt
+   44  awk '{print"\t"}' sort.txt
+   45  gedit sort
+   46  awk '{print"\t"}' sort
+   47  gedit sort
+   48  awk '{print NR ". "$}' 
+   49  awk '{print NR ". "$s}'
+   50  wall
+   51  lp abc
+   52  cd ceccs18c20
+   53  cd cs232
+   54  cd 3101
+   55  script work.txt
+   56  ls
+   57  who
+   58  gedit sort
+   59  sort -n sort
+   60  gedit cut
+   61  cut -f3 cut
+   62  cut -f1 cut
+   63  gedit r.t1
+   64  gedit r.t2
+   65  join r.t1.txt r.t2.txt
+   66  join r.t1 r.t2
+   67  uname
+   68  man
+   69  linux
+   70  ping
+   71  ps
+   72  ls
+   73  gedit sort
+   74  sort -n sort
+   75  gedit
+   76  gedit cut1
+   77  cut -f3 cut1
+   78  cut -f1 cut1
+   79  uname
+   80  ps
+   81  who
+   82  exit
+   83  cd ceccs18c20
+   84  cd cs232
+   85  cd 3101
+   86  script work.txt
+   87  gedit report
+   88  gedit report.txt
+   89  sftp cs18c20@192.168.0.30
+   90  cd ceccs18c20
+   91  cd c232
+   92  cd cs232
+   93  cd 3101
+   94  git
+   95  ping 192.168.0.30
+   96  ll
+   97  mkdir ceccs18c64
+   98  cdceccs18c64
+   99  cd ceccs18c64
+  100  mkdir cs232
+  101  cd cs232
+  102  mkdir 0302
+  103  cd 0302
+  104  sftp cec18cs64@192.168.0.30
+  105  sftp cs18cs64@192.168.0.30
+  106  ping 192.168.0.30
+  107  sftp cs18cs64@192.168.0.30
+  108  sftp cs18c64@192.168.0.30
+  109  ftp cs18c64@192.168.0.30
+  110  sftp cs18c64@192.168.0.30
+  111  report.txt
+  112  cat report.txt
+  113  cat>report.txt
+  114  script work.txt
+  115  ifconfig
+  116  ifconfig -a
+  117  route -n
+  118  sftp cs18c20@192.168.0.30
+  119  sftp cs18c64@192.168.0.30
+  120  gedit test.txt
+  121  sort -dr test.txt > sorted.txt
+  122  gedit sorted.txt 
+  123  sort -n test.txt > sorted.txt
+  124  gedit sorted.txt 
+  125  gedit test.txt
+  126  sort -n test.txt > sorted.txt
+  127  gedit sorted.txt 
+  128  gedit test.txt
+  129  cut -f3 test.txt
+  130  cut -f-3 test.txt
+  131  gedit test.txt
+  132  cut -f3 test.txt
+  133  gedit test.txt
+  134  cut -f3 test.txt
+  135  cut -f-3 test.txt
+  136  cut f1-3 test.txt
+  137  gedit test1.txt
+  138  gedit test2.txt
+  139  paste test1.txt test2.txt
+  140  grep l test1.txt
+  141  cat -n sorted.txt
+  142  awk '{print "\t" $0}' test2.txt
+  143  awk '{s+=$1} END {print s}' test.txt
+  144  wget test.txt
+  145  gedit report.txt
+  146  uname -a
+  147  free -h
+  148  wget 192.168.0.30
+  149  head -n 10 index.html
+  150  whoami
+  151  ps
+  152  ps aux
+  153  kill -9 2323
+  154  kill -9 3589
+  155  history
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.435 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.221 ms
+64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.476 ms
+64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.596 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.2
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ sftp cs[K[Kceccs18c21@1921[K.168.0.2
+ssh: connect to host 192.168.0.2 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ sftp ceccs18c21@192.168.0.2[C[K30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ exit
+exit
+There are stopped jobs.
+]0;s4c1@proxysrvr: ~/ceccs18c21/cs232/2101[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c21/cs232/2101[00m$ exit
+exit
+
+Script done on Friday 07 February 2020 11:17:11 AM IST

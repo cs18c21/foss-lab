@@ -1,0 +1,40 @@
+
+CEC CS 18 C21 27-03-2020
+GOVIND KARTHA
+
+--------------------------------
+#1: Setting up http and ftp servers (t7)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# install ftp server
+	sudo apt-get install vsftpd
+	
+	# edit server configuration
+	sudo vim /etc/vsftpd.conf
+	
+	# connect to ftp on local server
+	ftp localhost	
+	
+	# install apache2
+	sudo apt-get install apache2
+	
+	# edit HTML file
+	sudo vim /var/www/html/index.html
+
+--------------------------------
+Output: 
+	
+	# ftp server available at 192.168.0.101 
+	
+	# Apache http server installed
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------

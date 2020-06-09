@@ -1,0 +1,7 @@
+Script started on Friday 28 February 2020 10:54:14 AM IST
+]0;admin1@cc-Sy: ~/ceccs18c21/2802[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c21/2802[00m$ gedit index.html
+]0;admin1@cc-Sy: ~/ceccs18c21/2802[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c21/2802[00m$ gedit index.html
+]0;admin1@cc-Sy: ~/ceccs18c21/2802[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c21/2802[00m$ exit
+exit
+
+Script done on Friday 28 February 2020 11:36:22 AM IST

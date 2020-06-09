@@ -1,0 +1,84 @@
+CEC CS 18 C21
+Govind Kartha
+	
+--------------------------------
+#1: Networking tasks (t3)
+---------------------------------
+	
+Command/Shell script/Program name
+---------------------------------
+	
+ifconfig -a
+route -n
+route add default gw 192.168.0.2
+ping 192.168.0.1
+cat /etc/resolv.conf
+echo "nameserver 1.1.1.1" >> resolv.conf
+	
+	
+--------------------------------
+Output:
+	
+# ifconfig -a displays all available network interfaces
+	
+# route -n displays kernal routing table
+	
+# route add, is used add a new route to the table,
+# route add default gw 192.168.0.2, a default gateway in this case
+	
+# echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+# to add 1.1.1.1  to system domain resolver configuration
+	
+-------------------
+Remarks if any:
+	
+As I don't have the superuser privelages I couldn't edit the resolv.conf table.
+	
+	
+-------------------------------------
+-------------------------------------
+	
+	
+#2: Ftp usage (t5)
+	
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	
+sftp cs18c21@192.168.0.30
+put report.txt
+lcd ..
+lpwd
+get work.txt
+rm work.txt
+quit
+	
+--------------------------------
+
+	
+Output: or Input & Output (whichever is applicable)
+	
+# sftp cs18c21@192.168.0.30, connect to host 192.168.0.30 via sftp
+	
+# put report.txt, upload report.txt
+	
+# lcd .., change local directory
+	
+# lpwd, show local present working directory
+	
+# get work.txt, copy work.txt from host to local system
+	
+# rm work.txt, remove work.txt from host
+	
+# quit, quit current ftp session
+	
+	
+-------------------
+Remarks if any: Due to network issues ftp task cound not be completed.
+	
+	
+-------------------------------------
+-------------------------------------
+
+
+

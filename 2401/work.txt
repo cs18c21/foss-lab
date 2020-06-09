@@ -1,0 +1,336 @@
+Script started on Wednesday 01 January 2003 06:18:42 AM IST
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ ifconfig -a
+eth0      Link encap:Ethernet  HWaddr 00:19:db:31:c3:04  
+          inet addr:192.168.0.71  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::219:dbff:fe31:c304/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:63020 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1084 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:5323954 (5.3 MB)  TX bytes:113489 (113.4 KB)
+          Interrupt:18 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2416 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2416 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:174144 (174.1 KB)  TX bytes:174144 (174.1 KB)
+
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ ifconfig eth0 192.168.0.2
+SIOCSIFADDR: Operation not permitted
+SIOCSIFFLAGS: Operation not permitted
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ ifconfig eth0 192.168.0.20
+SIOCSIFADDR: Operation not permitted
+SIOCSIFFLAGS: Operation not permitted
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     0.0.0.0         255.255.254.0   U     1      0        0 eth0
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ route add default gw 192.168.0.2
+SIOCADDRT: Operation not permitted
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_req=15 ttl=64 time=0.282 ms
+64 bytes from 192.168.0.2: icmp_req=16 ttl=64 time=0.329 ms
+64 bytes from 192.168.0.2: icmp_req=17 ttl=64 time=0.452 ms
+64 bytes from 192.168.0.2: icmp_req=18 ttl=64 time=0.329 ms
+64 bytes from 192.168.0.2: icmp_req=19 ttl=64 time=0.452 ms
+64 bytes from 192.168.0.2: icmp_req=20 ttl=64 time=0.342 ms
+64 bytes from 192.168.0.2: icmp_req=21 ttl=64 time=0.326 ms
+64 bytes from 192.168.0.2: icmp_req=22 ttl=64 time=0.284 ms
+64 bytes from 192.168.0.2: icmp_req=23 ttl=64 time=0.426 ms
+64 bytes from 192.168.0.2: icmp_req=73 ttl=64 time=0.276 ms
+64 bytes from 192.168.0.2: icmp_req=74 ttl=64 time=0.449 ms
+64 bytes from 192.168.0.2: icmp_req=75 ttl=64 time=0.275 ms
+64 bytes from 192.168.0.2: icmp_req=76 ttl=64 time=0.292 ms
+64 bytes from 192.168.0.2: icmp_req=77 ttl=64 time=0.316 ms
+64 bytes from 192.168.0.2: icmp_req=78 ttl=64 time=0.349 ms
+64 bytes from 192.168.0.2: icmp_req=79 ttl=64 time=0.309 ms
+64 bytes from 192.168.0.2: icmp_req=80 ttl=64 time=0.247 ms
+64 bytes from 192.168.0.2: icmp_req=81 ttl=64 time=0.407 ms
+64 bytes from 192.168.0.2: icmp_req=82 ttl=64 time=0.310 ms
+64 bytes from 192.168.0.2: icmp_req=83 ttl=64 time=0.299 ms
+64 bytes from 192.168.0.2: icmp_req=84 ttl=64 time=0.335 ms
+64 bytes from 192.168.0.2: icmp_req=85 ttl=64 time=0.428 ms
+64 bytes from 192.168.0.2: icmp_req=86 ttl=64 time=0.493 ms
+64 bytes from 192.168.0.2: icmp_req=87 ttl=64 time=0.252 ms
+64 bytes from 192.168.0.2: icmp_req=88 ttl=64 time=0.474 ms
+64 bytes from 192.168.0.2: icmp_req=89 ttl=64 time=0.523 ms
+64 bytes from 192.168.0.2: icmp_req=90 ttl=64 time=0.355 ms
+64 bytes from 192.168.0.2: icmp_req=91 ttl=64 time=0.307 ms
+64 bytes from 192.168.0.2: icmp_req=92 ttl=64 time=0.255 ms
+64 bytes from 192.168.0.2: icmp_req=93 ttl=64 time=0.291 ms
+64 bytes from 192.168.0.2: icmp_req=94 ttl=64 time=0.273 ms
+64 bytes from 192.168.0.2: icmp_req=95 ttl=64 time=0.252 ms
+64 bytes from 192.168.0.2: icmp_req=96 ttl=64 time=0.497 ms
+64 bytes from 192.168.0.2: icmp_req=97 ttl=64 time=0.289 ms
+64 bytes from 192.168.0.2: icmp_req=98 ttl=64 time=0.348 ms
+64 bytes from 192.168.0.2: icmp_req=99 ttl=64 time=0.340 ms
+64 bytes from 192.168.0.2: icmp_req=100 ttl=64 time=0.296 ms
+64 bytes from 192.168.0.2: icmp_req=101 ttl=64 time=0.270 ms
+64 bytes from 192.168.0.2: icmp_req=102 ttl=64 time=0.481 ms
+64 bytes from 192.168.0.2: icmp_req=103 ttl=64 time=0.329 ms
+64 bytes from 192.168.0.2: icmp_req=104 ttl=64 time=0.466 ms
+64 bytes from 192.168.0.2: icmp_req=105 ttl=64 time=0.557 ms
+64 bytes from 192.168.0.2: icmp_req=106 ttl=64 time=0.502 ms
+64 bytes from 192.168.0.2: icmp_req=107 ttl=64 time=0.343 ms
+64 bytes from 192.168.0.2: icmp_req=108 ttl=64 time=0.312 ms
+64 bytes from 192.168.0.2: icmp_req=109 ttl=64 time=0.464 ms
+64 bytes from 192.168.0.2: icmp_req=110 ttl=64 time=0.363 ms
+64 bytes from 192.168.0.2: icmp_req=111 ttl=64 time=0.280 ms
+64 bytes from 192.168.0.2: icmp_req=112 ttl=64 time=0.328 ms
+64 bytes from 192.168.0.2: icmp_req=113 ttl=64 time=0.462 ms
+64 bytes from 192.168.0.2: icmp_req=114 ttl=64 time=0.314 ms
+64 bytes from 192.168.0.2: icmp_req=115 ttl=64 time=0.524 ms
+64 bytes from 192.168.0.2: icmp_req=116 ttl=64 time=0.605 ms
+64 bytes from 192.168.0.2: icmp_req=117 ttl=64 time=0.587 ms
+64 bytes from 192.168.0.2: icmp_req=118 ttl=64 time=0.321 ms
+64 bytes from 192.168.0.2: icmp_req=119 ttl=64 time=0.548 ms
+64 bytes from 192.168.0.2: icmp_req=120 ttl=64 time=0.561 ms
+64 bytes from 192.168.0.2: icmp_req=121 ttl=64 time=0.525 ms
+64 bytes from 192.168.0.2: icmp_req=122 ttl=64 time=0.547 ms
+64 bytes from 192.168.0.2: icmp_req=123 ttl=64 time=0.311 ms
+64 bytes from 192.168.0.2: icmp_req=124 ttl=64 time=0.352 ms
+64 bytes from 192.168.0.2: icmp_req=125 ttl=64 time=0.520 ms
+64 bytes from 192.168.0.2: icmp_req=126 ttl=64 time=0.337 ms
+64 bytes from 192.168.0.2: icmp_req=127 ttl=64 time=0.350 ms
+64 bytes from 192.168.0.2: icmp_req=128 ttl=64 time=0.410 ms
+64 bytes from 192.168.0.2: icmp_req=129 ttl=64 time=0.226 ms
+64 bytes from 192.168.0.2: icmp_req=130 ttl=64 time=0.351 ms
+64 bytes from 192.168.0.2: icmp_req=131 ttl=64 time=0.501 ms
+64 bytes from 192.168.0.2: icmp_req=132 ttl=64 time=0.454 ms
+64 bytes from 192.168.0.2: icmp_req=133 ttl=64 time=0.301 ms
+64 bytes from 192.168.0.2: icmp_req=134 ttl=64 time=0.258 ms
+64 bytes from 192.168.0.2: icmp_req=135 ttl=64 time=0.490 ms
+64 bytes from 192.168.0.2: icmp_req=136 ttl=64 time=0.275 ms
+64 bytes from 192.168.0.2: icmp_req=137 ttl=64 time=0.335 ms
+64 bytes from 192.168.0.2: icmp_req=138 ttl=64 time=0.269 ms
+64 bytes from 192.168.0.2: icmp_req=139 ttl=64 time=0.255 ms
+64 bytes from 192.168.0.2: icmp_req=140 ttl=64 time=0.338 ms
+64 bytes from 192.168.0.2: icmp_req=141 ttl=64 time=0.544 ms
+64 bytes from 192.168.0.2: icmp_req=142 ttl=64 time=0.256 ms
+64 bytes from 192.168.0.2: icmp_req=143 ttl=64 time=0.386 ms
+64 bytes from 192.168.0.2: icmp_req=144 ttl=64 time=0.348 ms
+64 bytes from 192.168.0.2: icmp_req=145 ttl=64 time=0.330 ms
+64 bytes from 192.168.0.2: icmp_req=146 ttl=64 time=0.279 ms
+64 bytes from 192.168.0.2: icmp_req=147 ttl=64 time=0.491 ms
+64 bytes from 192.168.0.2: icmp_req=148 ttl=64 time=0.239 ms
+64 bytes from 192.168.0.2: icmp_req=149 ttl=64 time=0.511 ms
+64 bytes from 192.168.0.2: icmp_req=150 ttl=64 time=0.276 ms
+64 bytes from 192.168.0.2: icmp_req=151 ttl=64 time=0.338 ms
+64 bytes from 192.168.0.2: icmp_req=152 ttl=64 time=0.399 ms
+64 bytes from 192.168.0.2: icmp_req=153 ttl=64 time=0.310 ms
+64 bytes from 192.168.0.2: icmp_req=154 ttl=64 time=0.497 ms
+64 bytes from 192.168.0.2: icmp_req=155 ttl=64 time=0.338 ms
+64 bytes from 192.168.0.2: icmp_req=156 ttl=64 time=0.502 ms
+64 bytes from 192.168.0.2: icmp_req=157 ttl=64 time=0.477 ms
+64 bytes from 192.168.0.2: icmp_req=158 ttl=64 time=0.464 ms
+64 bytes from 192.168.0.2: icmp_req=159 ttl=64 time=0.392 ms
+64 bytes from 192.168.0.2: icmp_req=160 ttl=64 time=0.259 ms
+64 bytes from 192.168.0.2: icmp_req=161 ttl=64 time=0.337 ms
+64 bytes from 192.168.0.2: icmp_req=162 ttl=64 time=0.510 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.2
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ cat /etc/resolv[Kv.com[Knf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.0.1
+search example.org
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ echo ""n"a"m"e"s"e"r"v"e"r" "1"."1"."1"1"."[1P"[1P"."1" ">"[1P"[1P"[1P"1"[C > con[K[K[Kresolc[Kvconf> resolvconf [A]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ echo "nameserver 1.1.1.1" >> resolvconf [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.conff[A]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ echo "nameserver 1.1.1.1" >> resolv.conff
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ echo "nameserver 1.1.1.1" >> resolv.conff[A]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconf [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat /etc/resolv.conf
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.0.1
+search example.org
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ echo ""n"a"m"e"s"e"r"v"e"r" "1"2"7"."0"."0"."1"[C >> resolv.c onf
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ CEC FOSS Lab: Some Linux Commands
+CEC: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ Networking
+Networking: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:19:db:31:c3:04  
+          inet addr:192.168.0.71  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::219:dbff:fe31:c304/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:146721 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2909 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:12161796 (12.1 MB)  TX bytes:333673 (333.6 KB)
+          Interrupt:18 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2416 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2416 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:174144 (174.1 KB)  TX bytes:174144 (174.1 KB)
+
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ ifconfig -a
+eth0      Link encap:Ethernet  HWaddr 00:19:db:31:c3:04  
+          inet addr:192.168.0.71  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::219:dbff:fe31:c304/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:146721 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2909 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:12161796 (12.1 MB)  TX bytes:333673 (333.6 KB)
+          Interrupt:18 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2416 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2416 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:174144 (174.1 KB)  TX bytes:174144 (174.1 KB)
+
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ if[K[Kreport[K[K[K[K[K[Kgedit report.txt
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18cs[K21@192.168.0.30
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is d8:e8:3a:9a:e6:9d:37:9c:e9:3b:8d:e3:eb:eb:36:a0.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c21@192.168.0.30's password: 
+Connection closed by 192.168.0.30
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18c21@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c21@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    
+sftp> mkdir 3101
+^Z
+[2]+  Stopped                 sftp cs18c21@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18c21@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c21@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mk[K[Kls
+^Z
+[3]+  Stopped                 sftp cs18c21@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18c21@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c21@192.168.0.30's password: 
+^Z
+[4]+  Stopped                 sftp cs18c21@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18c21@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c21@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    
+sftp> mkdir 3101
+Couldn't create directory: Failure
+sftp> Connection to 192.168.0.30 closed by remote host.
+
+[5]+  Stopped                 sftp cs18c21@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18c21@192.168.0.30
+^Z
+[6]+  Stopped                 sftp cs18c21@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18c21@192.168.0.30
+^Z
+[7]+  Stopped                 sftp cs18c21@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18c21@192.168.0.30
+    ^Z
+[8]+  Stopped                 sftp cs18c21@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18c21@192.168.0.30
+^Z
+[9]+  Stopped                 sftp cs18c21@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+64 bytes from 192.168.0.30: icmp_req=9 ttl=64 time=1.25 ms
+64 bytes from 192.168.0.30: icmp_req=10 ttl=64 time=0.703 ms
+64 bytes from 192.168.0.30: icmp_req=11 ttl=64 time=0.689 ms
+64 bytes from 192.168.0.30: icmp_req=12 ttl=64 time=0.701 ms
+64 bytes from 192.168.0.30: icmp_req=13 ttl=64 time=0.674 ms
+^Z
+[10]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ ping 192.168.0.30sftp cs18c21@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c21@192.168.0.30's password: 
+ ^Z
+[11]+  Stopped                 sftp cs18c21@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ sftp cs18c21@192.168.0.30[8Pping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+64 bytes from 192.168.0.30: icmp_req=1 ttl=64 time=0.713 ms
+64 bytes from 192.168.0.30: icmp_req=2 ttl=64 time=0.663 ms
+64 bytes from 192.168.0.30: icmp_req=3 ttl=64 time=0.666 ms
+^Z
+[12]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ ping 192.168.0.30sftp cs18c21@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c21@192.168.0.30's password: 
+Connection closed by 192.168.0.30
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ git pull[K[K[K[K[K if [Kconfig[K[K[K[K[K[K[K[K[K[K[K[Kifconfig
+eth0      Link encap:Ethernet  HWaddr 00:19:db:31:c3:04  
+          inet addr:192.168.0.71  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::219:dbff:fe31:c304/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:330642 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11252 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:28098159 (28.0 MB)  TX bytes:1241007 (1.2 MB)
+          Interrupt:18 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2427 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2427 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:175772 (175.7 KB)  TX bytes:175772 (175.7 KB)
+
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ git [K[K[K[Kx[Kexit
+exit
+There are stopped jobs.
+]0;s4c1@lab2-AcerPower-Series: ~/s4c21/3101s4c1@lab2-AcerPower-Series:~/s4c21/3101$ exit
+exit
+Write failed: No route to host
+
+Script done on Wednesday 01 January 2003 08:47:51 AM IST

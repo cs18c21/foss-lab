@@ -1,0 +1,41 @@
+CEC CS 18 C21 28-03-2020
+GOVIND KARTHA
+
+--------------------------------
+#2: Perl (t8) (2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Hello world program
+	/perl/helloworld.pl	
+
+	# Program to access an array
+	/perl/array.pl
+
+	# Program to understand hashes in perl
+	/perl/hash.pl
+
+--------------------------------
+Output: 
+	
+	# Output of helloworld.pl
+	Hello World
+
+	# Output of array.pl
+	Mon
+	Mon
+	0 1 2 3 4 5 6 7 8 9 10
+	0 1 2 3 4 5 6 7 8 9 10 11
+
+
+	# Output of hash.pl	
+	45
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------

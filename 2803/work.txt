@@ -1,0 +1,41 @@
+Script started on 2020-03-28 10:44:28+0530
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ sudo apt-get install per l
+[sudo] password for s4c2: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 3%Reading state information... Done
+perl is already the newest version (5.26.1-6ubuntu0.3).
+0 upgraded, 0 newly installed, 0 to remove and 512 not upgraded.
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit hello[K[K[K[K[KHello[K[K[K[K[Khe[Klloworld[K[K[K[K[K[K[K[Kelloworld.perl
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit helloworld.perl
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ perl helloworld.p[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm gedit helloworld.perl[1P helloworld.perl[1P helloworld.perl[1P helloworld.perl[1P helloworld.perl[1P helloworld.perlr helloworld.perlm helloworld.perl[C helloworld.perl
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ rm  helloworld.perl[1Pl[1Plgedit helloworld.perl[1Pl[1Pl
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit helloworld.pl[1Phelloworld.pl[1Phelloworld.pl[1Phelloworld.pl[1Phelloworld.pl[1Phelloworld.pl[1Phelloworld.plphelloworld.plehelloworld.plrhelloworld.pllhelloworld.pl helloworld.pl
+Hello World 
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ perl helloworld.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit helloworlld.pl[K[A]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit helloworld.pl[C[C[C
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit helloworld.pl[K[K]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ [K]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit helloworlld.pl[1Ppl[1Ppl[1Ppl[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpl[K[A]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cpl [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppl
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppl[1Ppl[1Ppl[1Ppl[1Pplaplrplrplaplypl.pl [A]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ [C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit array.pl [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P array.pl
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P array.pl[1P array.pl[1P array.pl[1P array.plp array.ple array.plr array.pll array.pl
+syntax error at array.pl line 8, near ")                           # .. is range operator
+
+print"
+Execution of array.pl aborted due to compilation errors.
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ perl array.plgedit array.pl [A
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit array.pl[1Pperl[C[C[C[C[C[C[C[C[C
+Mon
+Mon
+0 1 2 3 4 5 6 7 8 9 10
+0 1 2 3 4 5 6 7 8 9 10 11
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ perl array.pl[1@gedit[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.plh.pla.pls.plh.pl
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit hash.plperl array.plgedit hash.pl[C[1P[1P[1P[C[1P hash.pl[1P hash.plp hash.plr hash.pll hash.pl[1P hash.pl[1P hash.pl[1P hash.plp hash.plw hash.pl[1P hash.ple hash.plr hash.pll hash.pl
+Can't locate object method "John" via package "Paul" (perhaps you forgot to load "Paul"?) at hash.pl line 7.
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ perl hash.pl[1@gedit[C[C[C[C[C[C[C[C
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit hash.pl[1Pperl[C[C[C[C[C[C[C[C
+45
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ gedit repot[Krt.txt
+]0;s4c2@s4c2-HP-G62-Notebook-PC: ~/Desktop/cs232/2803/perl[01;32ms4c2@s4c2-HP-G62-Notebook-PC[00m:[01;34m~/Desktop/cs232/2803/perl[00m$ exit
+exit
+
+Script done on 2020-03-28 11:22:24+0530
